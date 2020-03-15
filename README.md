@@ -1,5 +1,7 @@
 # CNN-for-piston
 
+This program is part of the code used in the paper "Object-independent piston diagnosing approach for segmented optical mirrors via deep convolutional neural network" https://www.osapublishing.org/ao/abstract.cfm?uri=ao-59-3-771
+
 The network topology was inspired by VGG. We compared the performance about four types of VGGs with different number of layers to select the most appropriate network that is not only time-saving but of high accuracy. We also split the network into five branches with same loss functions for each.
 
 We trained five CNNs with the same structure for identifying piston error of each submirror, except the error of the first submirror. 
